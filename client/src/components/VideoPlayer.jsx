@@ -14,7 +14,7 @@ const VideoPlayer = () => {
       {callAccepted && !callEnded && (
         <Paper>
           <MyVideoDiv>{name || 'Name'}</MyVideoDiv>
-          <VideoHolder playsInline muted ref={userVideo} autoPlay />
+          <VideoHolder playsInline ref={userVideo} autoPlay />
         </Paper>
       )}
     </Grid>
